@@ -15,7 +15,6 @@ class UserInfoMod(loader.Module):
             "<b>ID: {}"
             "\nFIrst name: {}"
             "\nLast name: {}"
-            "\nAbout: {}"
             "\nUsername: {}"
         ),
     }
@@ -49,7 +48,6 @@ class UserInfoMod(loader.Module):
                     sender.id,
                     utils.escape_html(sender.first_name),
                     utils.escape_html(sender.last_name),
-                    utils.escape_html(sender.status),
                     sender.username,
                 ),
             )
