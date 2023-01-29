@@ -15,7 +15,7 @@ class UserInfoMod(loader.Module):
             "<b>ID: {}"
             "\nFIrst name: {}"
             "\nLast name: {}"
-            "\nUsername: {}"
+            "\nUsername: {}</b>"
         ),
     }
 
